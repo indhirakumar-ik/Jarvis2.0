@@ -17,7 +17,7 @@ def speak(text):
 
 def open_software(software_name):
     if 'chrome' in software_name:
-        speak('Opening Chrome...')
+        speak('Opening Chrome....')
         program = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
         subprocess.Popen([program])
 
